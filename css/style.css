@@ -1,0 +1,137 @@
+:root {
+  --footer-Studio-text-color: #ffffff;
+  --body-font-color: #212121;
+  --blue-text: #2196f3;
+  --gray-text: #757575;
+  --background-color-dark: #2f303a;
+  --portfolio-gallery-border-color: #eeeeee;
+  --crue-gallery-color: #f5f4fa;
+}
+
+body {
+  font-family: "roboto", serif;
+  color: var(--body-font-color);
+}
+
+body header {
+  text-decoration: none;
+}
+body footer {
+  background-color: var(--background-color-dark);
+  color: var(--footer-Studio-text-color);
+}
+.blueText {
+  color: var(--blue-text);
+}
+.blueTextOnHover:visited {
+  color: var(--body-font-color);
+}
+.blueTextOnHover:hover,
+.blueTextOnHover:focus {
+  color: var(--blue-text);
+  opacity: 100%;
+}
+.blueTextOnHover {
+  text-decoration: none;
+}
+.btnChangeOnHover {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btnChangeOnHover:hover,
+.btnChangeOnHover:focus {
+  background-color: var(--blue-text);
+  color: var(--footer-Studio-text-color);
+}
+.btnChangeOnHover:visited {
+  color: var(--body-font-color);
+}
+
+.listItemProps button {
+  width: 121px;
+  height: 38px;
+}
+.contactFooter {
+  color: var(--footer-Studio-text-color);
+  opacity: 60%;
+  font-weight: 400;
+  font-size: 14px;
+}
+.contactHeader {
+  color: var(--gray-text);
+  font-weight: 400;
+  font-size: 14px;
+}
+.BigAD {
+  background-color: var(--background-color-dark);
+}
+.BigAD button {
+  width: 200px;
+  height: 50px;
+}
+.BigAD h1 {
+  color: var(--footer-Studio-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.16;
+  text-align: center;
+}
+.listItemProps {
+  list-style: none;
+}
+.PortfolioGalleryItems {
+  border: 1px solid var(--portfolio-gallery-border-color);
+  width: 370px;
+  height: 404px;
+}
+.logoTextProps {
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logoTextColorChange {
+  text-decoration: none;
+  color: var(--footer-Studio-text-color);
+}
+.logoTextColorChange:hover {
+  color: var(--blue-text);
+}
+.photoGallery h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.photoGalleryOfCrue {
+  background-color: var(--crue-gallery-color);
+}
+
+.listItemProps h2 {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--body-font-color);
+}
+
+.listItemProps p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--gray-text);
+}
+.listItemProps figcaption b {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--body-font-color);
+  line-height: 2;
+}
+.listItemProps figcaption {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-text);
+  line-height: 1.88;
+}
+.listItemProps a span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}

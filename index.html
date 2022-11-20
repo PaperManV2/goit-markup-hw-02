@@ -4,51 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css\style.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <header>
-      <a href="#"><span>Web</span>Studio</a>
+      <a href="index.html" class="blueTextOnHover logoTextProps"
+        ><span class="blueText">Web</span>Studio</a
+      >
       <nav>
         <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">kontakt</a></li>
+          <li class="listItemProps">
+            <a href="#" class="blueTextOnHover"><span>Agencja</span></a>
+          </li>
+          <li class="listItemProps">
+            <a href="portfolio.html" class="blueTextOnHover"
+              ><span>Portfolio</span></a
+            >
+          </li>
+          <li class="listItemProps">
+            <a href="#" class="blueTextOnHover"><span>kontakt</span></a>
+          </li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a href="mailto:info@devstudio.com" class="blueTextOnHover contactHeader"
+        >info@devstudio.com</a
+      >
+      <a href="tel:+48111111111" class="blueTextOnHover contactHeader"
+        >+48 111 111 111</a
+      >
     </header>
     <main>
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługe</button>
+      <section class="BigAD">
+        <h1>
+          EFEKTYWNE ROZWIĄZANIA<br />
+          DLA WASZEGO BIZNESU
+        </h1>
+        <button type="button" class="btnChangeOnHover">Zamów usługe</button>
       </section>
-      <section>
+      <section class="">
         <ul>
-          <li>
+          <li class="listItemProps">
             <h2>LOREM IPSUM</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="listItemProps">
             <h2>LOREM IPSUM</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="listItemProps">
             <h2>LOREM IPSUM</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="listItemProps">
             <h2>LOREM IPSUM</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -57,10 +80,10 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="photoGallery">
         <h2>Czym się zajmujemy</h2>
         <ul>
-          <li>
+          <li class="listItemProps">
             <img
               src="images/ManTypingOnTablet.jpg"
               alt="Osoba zapisująca kod"
@@ -68,7 +91,8 @@
               height="294"
             />
           </li>
-          <li>
+
+          <li class="listItemProps">
             <img
               src="images/WomanWithAPhone.jpg"
               alt="Osoba projektująca stronę internetową"
@@ -76,7 +100,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="listItemProps">
             <img
               src="images/ChoosingColorOnPalett.jpg"
               alt="Osoba projektująca grafikę wybiera kolor z palety RGB"
@@ -86,10 +110,10 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="photoGallery photoGalleryOfCrue">
         <h2>Nasz zespół</h2>
         <ul>
-          <li>
+          <li class="listItemProps">
             <figure>
               <img
                 src="images/Jeremy.jpg"
@@ -100,7 +124,7 @@
               <figcaption><b>Jhon Doe</b><br />Product Designer</figcaption>
             </figure>
           </li>
-          <li>
+          <li class="listItemProps">
             <figure>
               <img
                 src="images/Anna.jpg"
@@ -111,7 +135,7 @@
               <figcaption><b>Jhon Doe</b><br />Frontend Developer</figcaption>
             </figure>
           </li>
-          <li>
+          <li class="listItemProps">
             <figure>
               <img
                 src="images/Brandon.jpg"
@@ -122,7 +146,7 @@
               <figcaption><b>Jhon Doe</b><br />Marketing</figcaption>
             </figure>
           </li>
-          <li>
+          <li class="listItemProps">
             <figure>
               <img
                 src="images/Jhon.jpg"
@@ -137,11 +161,18 @@
       </section>
     </main>
     <footer>
-      <a href="#"><span>Web</span>Studio</a>
+      <a href="index.html" class="logoTextColorChange logoTextProps"
+        ><span class="blueText">Web</span
+        ><span class="logoTextColorChange">Studio</span></a
+      >
       <address>
         m. Warszawa, Aleje Jerozolimskie 21
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <a href="mailto:info@example.com" class="blueTextOnHover contactFooter"
+          >info@example.com</a
+        >
+        <a href="tel:+48111111111" class="blueTextOnHover contactFooter"
+          >+48 111 111 111</a
+        >
       </address>
     </footer>
   </body>
