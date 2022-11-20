@@ -13,7 +13,7 @@ body {
   color: var(--body-font-color);
 }
 
-body footer {
+.footer {
   background-color: var(--background-color-dark);
   color: var(--footer-Studio-text-color);
 }
@@ -46,7 +46,7 @@ body footer {
   color: var(--body-font-color);
 }
 
-.listItemProps button {
+.listItemProps .PortfolioBtns {
   width: 121px;
   height: 38px;
 }
@@ -64,11 +64,11 @@ body footer {
 .BigAD {
   background-color: var(--background-color-dark);
 }
-.BigAD button {
+.BigAD .BigADBtn {
   width: 200px;
   height: 50px;
 }
-.BigAD h1 {
+.BigAD .BigAdTitle {
   color: var(--footer-Studio-text-color);
   font-weight: 900;
   font-size: 2.75rem;
@@ -103,38 +103,38 @@ body footer {
   text-decoration: none;
 }
 
-.photoGallery h2 {
+.photoGallery .GalleriesTitle {
   font-weight: 700;
   font-size: 2.25rem;
 }
 .photoGalleryOfCrue {
   background-color: var(--crue-gallery-color);
 }
-.photoGalleryOfCrue h2 {
+.photoGalleryOfCrue .GalleriesTitle {
   font-weight: 700;
   font-size: 2.25rem;
 }
 
-.photoGalleryOfCrue .listItemProps figure {
+.photoGalleryOfCrue .listItemProps .CruePictureDescriptionProps {
   background: var(--footer-Studio-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.listItemProps h2 {
+.listItemProps .paragraphTitle {
   font-weight: 700;
   font-size: 0.875rem;
   color: var(--body-font-color);
 }
 
-.listItemProps p {
+.listItemProps .paragraphDescription {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.71;
   color: var(--gray-text);
 }
-.GalleryDescription b {
+.GalleryDescription .GalleryDescriptionTitle {
   font-weight: 700;
   font-size: 1.125rem;
   color: var(--body-font-color);
