@@ -13,15 +13,15 @@ body {
   color: var(--body-font-color);
 }
 
-body header {
-  text-decoration: none;
-}
 body footer {
   background-color: var(--background-color-dark);
   color: var(--footer-Studio-text-color);
 }
 .blueText {
   color: var(--blue-text);
+}
+.whiteText {
+  color: var(--footer-Studio-text-color);
 }
 .blueTextOnHover:visited {
   color: var(--body-font-color);
@@ -31,9 +31,7 @@ body footer {
   color: var(--blue-text);
   opacity: 100%;
 }
-.blueTextOnHover {
-  text-decoration: none;
-}
+
 .btnChangeOnHover {
   border: none;
   border-radius: 4px;
@@ -56,12 +54,12 @@ body footer {
   color: var(--footer-Studio-text-color);
   opacity: 60%;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .contactHeader {
   color: var(--gray-text);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .BigAD {
   background-color: var(--background-color-dark);
@@ -73,7 +71,7 @@ body footer {
 .BigAD h1 {
   color: var(--footer-Studio-text-color);
   font-weight: 900;
-  font-size: 44px;
+  font-size: 2.75rem;
   line-height: 1.16;
   text-align: center;
 }
@@ -83,55 +81,73 @@ body footer {
 .PortfolioGalleryItems {
   border: 1px solid var(--portfolio-gallery-border-color);
   width: 370px;
-  height: 404px;
+  height: 404;
 }
-.logoTextProps {
+.aLink {
+  text-decoration: none;
+}
+.headerLogoTextProps {
   font-family: "raleway", sans-serif;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 1.19;
-}
-.logoTextColorChange {
+  color: var(--body-font-color);
   text-decoration: none;
+}
+.footerLogoTextProps {
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 1.19;
   color: var(--footer-Studio-text-color);
+  text-decoration: none;
 }
-.logoTextColorChange:hover {
-  color: var(--blue-text);
-}
+
 .photoGallery h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 .photoGalleryOfCrue {
   background-color: var(--crue-gallery-color);
 }
+.photoGalleryOfCrue h2 {
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+
+.photoGalleryOfCrue .listItemProps figure {
+  background: var(--footer-Studio-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 
 .listItemProps h2 {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--body-font-color);
 }
 
 .listItemProps p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.71;
   color: var(--gray-text);
 }
-.listItemProps figcaption b {
+.GalleryDescription b {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--body-font-color);
   line-height: 2;
 }
-.listItemProps figcaption {
+.GalleryDescription {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--gray-text);
   line-height: 1.88;
 }
-.listItemProps a span {
+.listItemProps .aLink {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.14;
 }
